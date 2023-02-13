@@ -1,8 +1,8 @@
 create table git_assignment(
 
-id      int auto_increment primary key
+id      int auto_increment primary key,
 
-,accountID  int         NOT NULL
+accountID  int         NOT NULL
 
 ,ownerName  varchar(255) NOT NULL
 
@@ -12,6 +12,8 @@ id      int auto_increment primary key
 
 ,active boolean     NOT NULL
 
-,comments   text        
+,comments   text  
+  
+ email varchar(30)
 
 );
