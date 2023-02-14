@@ -12,8 +12,9 @@ accountID  int         NOT NULL
 
 ,active boolean     NOT NULL
 
-,comments   text  
+,comments   text
+,status char(1)
   
- email varchar(30)
+ ,email varchar(30)
 
 );
